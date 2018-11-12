@@ -1,6 +1,3 @@
-# NBA-Per-Possession-Statistics
-Taking a look at some NBA pace stats
-
 # Pace Stats As Of 11/11/2018
 | team | tpp pace    | original pace | difference     | 
 |------|-------------|---------------|----------------| 

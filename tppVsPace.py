@@ -14,12 +14,13 @@ with open('TimePerPossession - Offense.csv') as csv_file:
         else:
             teams.append({"team": row[1], "time": float(row[4])})
             teamCount += 1
-
+print("team,tpp")
 for team in teams:
     name = team["team"]
     tpp = team["time"]
-    print(f'The {name} avg {tpp} seconds per possession')
+    # print(f'The {name} avg {tpp} seconds per possession')
 
     avgTpp = (tpp + average)/2
     pace = (seconds/avgTpp)/2
-    print(f'The {name} have a TPP pace of {pace}')
+    # print(f'The {name} have a TPP pace of {pace}')
+    print(f'{name},{pace}')
